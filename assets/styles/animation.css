@@ -1,0 +1,122 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInTop {
+    from { transform: translateY(-100px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate.fade-in.in-viewport {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate.slide-left.in-viewport {
+    animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate.slide-right.in-viewport {
+    animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate.slide-top.in-viewport {
+    animation: slideInTop 0.8s ease-out forwards;
+}
+
+.skill-box:hover img {
+    animation: rotate 2s linear infinite;
+}
+
+.project-box:hover img {
+    animation: pulse 1s infinite;
+}
+
+.btn-submit:hover {
+    animation: pulse 1s infinite;
+}
+
+.social-icon:hover {
+    animation: bounce 1s;
+}
+
+.header {
+    animation: slideInTop 0.5s ease-out;
+}
+
+#home .home-content h1 {
+    animation: slideInLeft 0.8s ease-out;
+}
+
+#home .home-content h3 {
+    animation: slideInLeft 0.8s ease-out 0.2s;
+    animation-fill-mode: both;
+}
+
+#home .home-content p {
+    animation: slideInLeft 0.8s ease-out 0.4s;
+    animation-fill-mode: both;
+}
+
+.home-img img {
+    animation: fadeIn 1s ease-out, pulse 2s infinite;
+}
+
+.btn-box a {
+    animation: fadeIn 0.8s ease-out 0.6s;
+    animation-fill-mode: both;
+}
+
+#about h1.in-viewport, #skills h1.in-viewport, #project h1.in-viewport, #contact h1.in-viewport {
+    animation: slideInLeft 0.8s ease-out;
+}
+
+.skill-box.in-viewport {
+    animation: fadeIn 0.8s ease-out;
+}
+
+.contact-form input.in-viewport, .contact-form textarea.in-viewport {
+    animation: slideInLeft 0.8s ease-out;
+}
+
+.btn-submit.in-viewport {
+    animation: fadeIn 0.8s ease-out;
+}
+
+.social-icon.in-viewport {
+    animation: fadeIn 0.8s ease-out;
+}

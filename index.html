@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/util.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
-
+    <link rel="stylesheet" href="./assets/styles/animation.css">
+    <script src="./assets/scripts/animation.js" defer></script>
     <title>Portfolio</title>
 </head>
 
@@ -44,7 +45,6 @@
                 <img class="hero-image" src="./assets/images/hero-img.jfif" alt="Hero Image">
             </div>
         </section>
-
         <section id="about" class="flex flex-column justify-center">
             <h1 class="text-center">About</h1>
             <p class="mg-1">From a young age, Nirmalya Mandal has been passionate about coding, transforming a childhood
@@ -58,49 +58,110 @@
                 character and relentless pursuit of knowledge. His portfolio is a testament to his technical skills and
                 his passion for continuous learning and creativity.</p>
         </section>
-
         <section id="skills" class="flex flex-column justify-center align-center">
             <h1 class="text-center">Skills</h1>
             <div class="flex flex-row align-center justify-center text-center flex-wrap">
                 <div class="skill-box flex flex-column align-center justify-center text-center ">
                     <img src="./assets/images/html5.svg" alt="HTML">
                     <h2 class="text-center">HTML</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptates?</p>
+                    <p>HTML (Hypertext Markup Language) structures web content, creating the framework for web pages.
+                        It's essential for organizing text, images, and links, forming the backbone of websites.</p>
                 </div>
                 <div class="skill-box flex flex-column align-center justify-center text-center ">
                     <img src="./assets/images/css3.svg" alt="CSS">
                     <h2 class="text-center">CSS</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptates?</p>
+                    <p>CSS (Cascading Style Sheets) styles HTML content, defining the layout, colors, fonts, and overall
+                        appearance. It ensures a visually appealing and consistent web design across different devices.
+                    </p>
                 </div>
                 <div class="skill-box flex flex-column align-center justify-center text-center ">
                     <img src="./assets/images/javascript.svg" alt="JavaScript">
                     <h2 class="text-center">JavaScript</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptates?</p>
+                    <p>JavaScript adds interactivity to web pages, enabling dynamic content, form validation,
+                        animations, and more. It's essential for modern web development, enhancing user experience and
+                        functionality.</p>
                 </div>
                 <div class="skill-box flex flex-column align-center justify-center text-center ">
                     <img src="./assets/images/java.svg" alt="Java">
                     <h2 class="text-center">Java</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptates?</p>
+                    <p>Java is a versatile, object-oriented programming language widely used for building enterprise
+                        applications, mobile apps, and large systems. It emphasizes portability, performance, and
+                        security.?</p>
                 </div>
                 <div class="skill-box flex flex-column align-center justify-center text-center ">
                     <img src="./assets/images/c.svg" alt="C">
                     <h2 class="text-center">C</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptates?</p>
+                    <p>C is a foundational programming language known for its efficiency and control over hardware. It's
+                        widely used in system programming, embedded systems, and applications requiring high
+                        performance.</p>
                 </div>
                 <div class="skill-box flex flex-column align-center justify-center text-center ">
                     <img src="./assets/images/c++.svg" alt="C++">
                     <h2 class="text-center">C++</h2>
+                    <p>C++ is an extension of C, adding object-oriented features and more. It's used for system/software
+                        development, game programming, and real-time simulations, offering high performance and control.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="flex flex-column justify-center align-center">
+            <h1 class="text-center">Projects</h1>
+            <div class="flex flex-row align-center justify-center text-center flex-wrap">
+                <div class="project-box flex flex-column align-center justify-center text-center">
+                    <a href="https://calculator-five-sepia-97.vercel.app/"><img class="object-fit-contain"
+                            src="./assets/images/basic-calculator.png" alt="Basic Calculator"></a>
+                    <h2 class="text-center">Basic Calculator</h2>
+                    <p>This project is about a basic calculator that was made by me using html, css and
+                        javascript. Click on the image to see it live.<br></p>
+                    <div class="btn-box"><a
+                            class="flex text-center text-decoration-none justify-center align-center""
+                            href=" https://github.com/DevNiru2704/Calculator">Open Github</a></div>
+                </div>
+                <div class="project-box flex flex-column align-center justify-center text-center">
+                    <a href="https://to-do-list-nine-xi-48.vercel.app/"><img class="object-fit-contain"
+                            src="./assets/images/to-do-list.png" alt="To-Do List"></a>
+                    <h2 class="text-center">To-Do List</h2>
+                    <p>This project is about a To-Do List that was made by me using html, css and
+                        javascript. Click on the image to see it live.<br></p>
+                    <div class="btn-box"><a
+                            class="flex text-center text-decoration-none justify-center align-center""
+                            href=" https://github.com/DevNiru2704/To-do-List">Open Github</a></div>
+                </div>
+                <div class="project-box flex flex-column align-center justify-center text-center">
+                    <img src="./assets/images/project3.jpg" alt="Project 3">
+                    <h2 class="text-center">Project 3</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, voluptates?</p>
                 </div>
             </div>
         </section>
-
-        <section id="project" class=""></section>
-
-        <section id="contact" class=""></section>
+        <section id="contact" class="flex flex-column justify-center align-center">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="contact-content flex flex-column align-center">
+                <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+                <form class="contact-form flex flex-column">
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+                <div class="contact-links flex justify-center">
+                    <a rel="noopener noreferrer" href="https://www.linkedin.com/in/nirmalya-mandal-9b2475313/" target="_blank" class="social-icon">
+                        <img src="./assets/images/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a rel="noopener noreferrer" href="https://github.com/DevNiru2704" target="_blank" class="social-icon">
+                        <img src="./assets/images/github.svg" alt="GitHub">
+                    </a>
+                    <a rel="noopener noreferrer" href="https://x.com/Nirmalya2709" target="_blank" class="social-icon">
+                        <img src="./assets/images/twitter.svg" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer class="text-center color-white">
+        <p>&copy; 2024 Nirmalya Mandal. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

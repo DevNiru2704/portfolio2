@@ -75,3 +75,7 @@
 .position-relative {
     position: relative;
 }
+
+.object-fit-contain {
+    object-fit: contain;
+}

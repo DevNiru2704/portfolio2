@@ -52,7 +52,7 @@ body {
 #home,
 #about,
 #skills,
-#projects,
+#project,
 #contact {
     min-height: 100vh;
     padding: 0 10%;
@@ -61,7 +61,7 @@ body {
 
 #about h1,
 #skills h1,
-#projects h1,
+#project h1,
 #contact h1 {
     position:relative;
     font-size: 40px;
@@ -163,4 +163,84 @@ body {
 
 .skill-box img,.skill-box h2,.skill-box p{
     margin:10px;
+}
+
+.project-box {
+    width: 300px;
+    margin: 2rem;
+}
+
+.project-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-box img, .project-box h2, .project-box p {
+    margin: 10px;
+}
+
+.project-box img {
+    border-radius:20%;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.contact-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover img {
+    transform: scale(1.2);
 }
