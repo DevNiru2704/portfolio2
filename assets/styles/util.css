@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.bg-blue {
+    background-color: #007bff;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.mg-1 {
+    margin: 27px;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-left {
+    justify-content: flex-start;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+}
+
+.position-relative {
+    position: relative;
+}
