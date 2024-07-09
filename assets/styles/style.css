@@ -70,6 +70,11 @@ body {
     font-weight: 700;
 }
 
+#about p,#skills p,#project p,#contact p{
+    font-size: 26px;
+}
+
+
 .home-img img {
     border-radius: 50%;
     border: 10px solid #00abf0;
@@ -163,11 +168,12 @@ body {
 }
 
 .skill-box img,.skill-box h2,.skill-box p{
-    margin:10px;
+    margin:0px;
+    padding:10px;
 }
 
 .project-box {
-    width: 300px;
+    max-width: 300px;
     margin: 2rem;
 }
 
